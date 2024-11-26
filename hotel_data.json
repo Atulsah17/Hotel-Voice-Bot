@@ -1,0 +1,46 @@
+{
+    "hotel_name": "Grand Lux Hotel",
+    "rooms": {
+        "single": {
+            "price_per_night": 100,
+            "amenities": [
+                "WiFi",
+                "Air Conditioning",
+                "TV"
+            ],
+            "available": 4,
+            "discount": 0
+        },
+        "double": {
+            "price_per_night": 150,
+            "amenities": [
+                "WiFi",
+                "King Size Bed",
+                "Mini Bar"
+            ],
+            "available": 2,
+            "discount": 10
+        },
+        "suite": {
+            "price_per_night": 300,
+            "amenities": [
+                "WiFi",
+                "Luxury Bed",
+                "Private Pool",
+                "Mini Bar"
+            ],
+            "available": 2,
+            "discount": 15
+        }
+    },
+    "faqs": {
+        "check_in_out": "Check-in time is 2 PM and check-out time is 11 AM.",
+        "parking": "Yes, we have free parking available.",
+        "pets": "We allow pets with an additional cleaning fee."
+    },
+    "greetings": [
+        "Hello, welcome to Grand Lux hotel!",
+        "Hi there! How can I assist you today?"
+    ],
+    "fallback": "I couldn't understand that. Could you please rephrase?"
+}
