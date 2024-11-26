@@ -54,12 +54,10 @@ Inquire about FAQs like check-in times or pet policies.
 
 3. Say "stop" or "exit" to end the conversation.
 
-File Structure
-.
-├── hotel_bot.py         # Main application script
-├── hotel_data.json      # Hotel data configuration
-├── README.md            # Documentation
-├── requirements.txt     # Dependencies
+## **File Structure**
+. ├── hotel_bot.py # Main application script ├── hotel_data.json # Hotel data (rooms, FAQs, etc.) ├── README.md # Project documentation ├── requirements.txt # Dependency list for Python packages 
+
+
 
 Example Interactions
 User: Are there any rooms available?
