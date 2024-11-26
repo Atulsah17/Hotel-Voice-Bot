@@ -36,3 +36,42 @@ This is a voice-activated bot designed to assist customers with hotel inquiries,
    ```bash
    git clone https://github.com/your-repo/hotel-voice-bot.git
    cd hotel-voice-bot
+
+2. Install the dependencies:
+
+pip install -r requirements.txt
+
+3. Ensure you have the hotel_data.json file in the project directory. This file contains hotel details and configurations.
+
+How to Use
+1. Run the bot:
+python hotel_bot.py
+
+2. Follow the bot's voice prompts to:
+Ask about room availability, details, or amenities.
+Book a room by specifying the type.
+Inquire about FAQs like check-in times or pet policies.
+
+3. Say "stop" or "exit" to end the conversation.
+
+File Structure
+.
+├── hotel_bot.py         # Main application script
+├── hotel_data.json      # Hotel data configuration
+├── README.md            # Documentation
+├── requirements.txt     # Dependencies
+
+Example Interactions
+User: Are there any rooms available?
+
+Bot: We have single, double, and suite rooms available.
+
+User: Tell me about the suite room.
+
+Bot: The suite room is available for $300 per night. It includes amenities like WiFi, Luxury Bed, Private Pool, and Mini Bar.
+
+User: Are pets allowed?
+
+Bot: We allow pets with an additional cleaning fee.
+
+
